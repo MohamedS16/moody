@@ -1,0 +1,102 @@
+.services{
+width: 90%;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+height: auto;
+}
+
+.services-card{
+    height: 350px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.service-name{
+    color: antiquewhite;
+    font-family: "Urbanist", sans-serif;
+    font-size: 70px;
+}
+
+.content{
+    position: relative;
+    margin: 10px;
+    height: auto;
+    width: 580px;
+    background-color: rgba(250, 235, 215, 0.222);
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    /* margin-top: 20px;    */
+    flex-wrap: wrap;
+}
+
+.content-text{
+    /* position: relative;
+    top: 0;
+    left: 0; */
+    /* z-index: 2; */
+    color: white;
+    width: 100%;
+    /* margin-top: 20px; */
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+    margin: 0px !important;
+    /* padding: 20px; */
+}
+
+.content-text p{
+    direction: rtl;
+    font-family: 'Changa';
+	font-style: normal;
+	font-weight: 600;
+    font-size: 14px;
+    /* margin-bottom: 20px; */
+}
+
+
+.service-btn{
+    padding: 20px;
+    background: rgb(61,38,0);
+    background: linear-gradient(90deg, rgba(61,38,0,1) 55%, rgba(159,99,0,1) 100%);
+    cursor: pointer;
+    border-radius: 10px;
+    color: white;
+}
+
+/* .content-img{
+    height: 100%;
+    background-color: aqua;
+    width: 45%;
+    margin: 0;
+    padding: 0;
+
+} */
+
+
+.content img{
+    /* position: absolute; */
+    border-radius: 20px;
+    /* height: 40%; */
+    /* top: 0;
+    left: 0; */
+    width: 100%;
+    /* z-index: ; */
+    object-fit: cover;
+}
+
+
+.samej{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 90%;
+}
